@@ -2,12 +2,6 @@ body{
   background-color: DarkOliveGreen;
 }
 
-h1{
-  font-weight: bold;
-  color: white;
-  font-size: 50px;
-}
-
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -33,8 +27,23 @@ nav li a:hover {
 }
 
 nav {
-  position: fixed;
-  top: 0;
+  position: sticky;
   width: 100%;
-  z-index: 1;
+  z-index: 100;
+  top: 0;
+}
+
+nav a{
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+.header {
+  font-weight: bold;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  background-color: #333;
+  top: 0;
 }
