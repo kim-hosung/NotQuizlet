@@ -1,6 +1,10 @@
 form{
 /* a. The form should be 500px wide and centered on the page */
-/* b. The form should have equal amounts of margin on the left and right sides of it*/
+/* b. The form should have equal amounts of margin on the left and right sides of it
+
+this is a test
+
+*/
   width: 500px;
   margin: auto;
 
