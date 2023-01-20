@@ -1,0 +1,34 @@
+form{
+/* a. The form should be 500px wide and centered on the page */
+/* b. The form should have equal amounts of margin on the left and right sides of it*/
+  width: 500px;
+  margin: auto;
+
+/* d. The form needs to have a solid border on all four sides that is black */
+  border-style: solid;
+  border-color: black;
+
+/* e. The form needs to have padding of 25px on all four sides */
+  padding: 25px;
+}
+
+label{
+/* f. Create a style rule to make the form labels appear bold */
+  font-weight: bold;
+}
+
+input, label, form{
+/* c. The form should have a background color of white, and the text color should be black */
+  color: black;
+  background-color: white;
+}
+
+body{
+/* g. The body of the webpage should be blue in color */
+  background-color: blue;
+}
+
+h1{
+/*h. <h1> elements should be center aligned */
+  text-align: center;
+}
