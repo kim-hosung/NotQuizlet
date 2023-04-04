@@ -127,3 +127,7 @@ input{
 .centered{
   margin: auto;
 }
+
+p {
+  font-size: 50px;
+}
