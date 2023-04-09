@@ -10,12 +10,12 @@ document.getElementById("add").onclick = function(){
     }
 
     else {
-        addTableRow()
+        addWord()
     }
 }
 
 
-function addTableRow() {
+function addWord() {
     var term = document.getElementById("term");
     var definition = document.getElementById("definition");
     var table = document.getElementById("tableData");
