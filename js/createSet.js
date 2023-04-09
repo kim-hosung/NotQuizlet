@@ -39,11 +39,11 @@ function addWord() {
     document.querySelector("#term").value = "";
     document.querySelector("#definition").value = "";
 
-    // Stores terms array in local storage
+    // Stores terms array in local storage as a string
     let globalTerms = terms;
     let stringTerm = JSON.stringify(globalTerms);
     localStorage.setItem("globalTerms", stringTerm);
-    // Stores definitions array in local storage
+    // Stores definitions array in local storage as a string
     let globalDefinitions = definitions;
     let stringDef = JSON.stringify(globalDefinitions);
     localStorage.setItem("globalDefinitions", stringDef);
